@@ -1,0 +1,5 @@
+Ich mag das du überlegst was du schreibst.
+Dein coding style ist immer gleich.
+Du benützt doku.
+Gibst guten input bei fragen.
+Commits sind verständlich.
