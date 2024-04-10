@@ -6,9 +6,17 @@ let cnJokes = [
     "Chuck Norris' tears cure cancer. Too bad he has never cried."
 ];
 
+function longestStringOfArray (myArr) {
+    let maxLenth = 0;
+    let longest = 0;
+    for(let i = 0; i < myArr.length; i++) {
+        
+        if(maxLenth < myArr[i].length) {
+            maxLenth = myArr[i].length;
+            longest = i;
+        }
+    }
+    return myArr[longest];
+}
 
-
-
-
-
-
+console.log(longestStringOfArray(cnJokes));
