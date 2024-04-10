@@ -6,6 +6,7 @@ let cnJokes = [
     "Chuck Norris' tears cure cancer. Too bad he has never cried."
 ];
 
+
 function longestStringOfArray (myArr) {
     let maxLenth = 0;
     let longest = 0;
@@ -19,4 +20,15 @@ function longestStringOfArray (myArr) {
     return myArr[longest];
 }
 
+
 console.log(longestStringOfArray(cnJokes));
+
+let reactions = [
+    "Well, you know.",
+    "Thats you only.",
+    "I hope you know what you are doing.",
+    "No.",
+    "Try it, big man.",
+];
+
+
